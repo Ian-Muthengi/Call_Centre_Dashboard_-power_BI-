@@ -31,7 +31,7 @@ In the initial data preparation phase, we performed the following tasks:
 3. Data cleaning and formatting.
 
 ### Exploratory Data Analysis
-EDA involved exploring the sales data to answer key questions, such as:
+EDA involved exploring the Call center data to answer key questions, such as:
 
 - What is the main reason for calling?
 - What is the highest sentiment in calls or customer satisfaction?
