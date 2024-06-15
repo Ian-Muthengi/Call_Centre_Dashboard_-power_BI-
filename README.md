@@ -33,9 +33,9 @@ In the initial data preparation phase, we performed the following tasks:
 ### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions, such as:
 
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
+- What is the overall response time?
+- What is the highest sentiment in calls or customer satisfaction?
+- What day of the week experiences the highest volume of calls?
 
 ### Data Analysis
 Features worked with:
@@ -43,8 +43,8 @@ Features worked with:
 1. SQL
 ```sql
 -- Selecting with a condition
-SELECT * FROM Sales
-WHERE cond = 2;
+SELECT * FROM Call_Center
+WHERE sentiment = 'Negative';
 ```
 
 2. Python
@@ -53,7 +53,7 @@ WHERE cond = 2;
 import pandas as pd
 
 # Replace 'input.csv' with the path to your CSV file
-input_file = r'C:\Users\ian.muthengi\Downloads\Sales.xlsx'
+input_file = r'C:\Users\ian.muthengi\Downloads\Call_Center.csv'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_excel(input_file)
@@ -62,12 +62,10 @@ df = pd.read_excel(input_file)
 df_transposed = df.transpose()
 
 # Replace 'output_transposed.csv' with the desired output file name
-output_file = 'C:/Users/ian.muthengi/Downloads/transposed_sales.xlsx'
+output_file = 'C:/Users/ian.muthengi/Downloads/transposed_Call_Center.csv'
 
 # Write the transposed DataFrame to a new CSV file
 df_transposed.to_excel(output_file, index=True, header=False)
-```
-3. Power BI
 
 ### Results/Findings
 The analysis results are summarized as follows:
