@@ -33,7 +33,7 @@ In the initial data preparation phase, we performed the following tasks:
 ### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions, such as:
 
-- What is the overall response time?
+- What is the main reason for calling?
 - What is the highest sentiment in calls or customer satisfaction?
 - What day of the week experiences the highest volume of calls?
 
@@ -71,14 +71,14 @@ df_transposed.to_excel(output_file, index=True, header=False)
 ### Results/Findings
 The analysis results are summarized as follows:
 
-1. 75% of the calls were answered or responded to within that time frame.
+1. Billing was the main reason for the calls.
 2. The negative sentiment is dominant, with a total range of 11,063.
 3. Thursday and Friday are the busiest days of the week with the highest number of calls.
 
 ### Recommendations
 Based on the analysis, we recommend the following actions:
 
-1. Aim to improve response times for the remaining 25% of cases that fall beyond the 75th percentile.his could involve optimizing processes or implementing automation for quicker responses to common queries.
+1. Develop educational materials or resources to help customers understand billing statements, payment options, and billing cycles.
 2. Conduct seminars for staff on customer handling to curb negative sentiments.
 3. Consider allocating more staff or resources on Thursdays and Fridays to handle the increased call volume efficiently.
 
