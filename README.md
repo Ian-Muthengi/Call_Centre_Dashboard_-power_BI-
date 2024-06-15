@@ -66,20 +66,21 @@ output_file = 'C:/Users/ian.muthengi/Downloads/transposed_Call_Center.csv'
 
 # Write the transposed DataFrame to a new CSV file
 df_transposed.to_excel(output_file, index=True, header=False)
+```
 
 ### Results/Findings
 The analysis results are summarized as follows:
 
-1. The company's sales have been steadily increasing as from 2021 to 2022, with a noticeable peak during the holiday season.
-2. Product41 is the best-performing category in terms of sales.
-3. Direct sales account for the highest percentage in terms of sales type.
+1. 75% of the calls were answered or responded to within that time frame.
+2. The negative sentiment is dominant, with a total range of 11,063.
+3. Thursday and Friday are the busiest days of the week with the highest number of calls.
 
 ### Recommendations
 Based on the analysis, we recommend the following actions:
 
-1. Invest in marketing and promotions during peak sales seasons to maximize revenue.
-2. Focus on expanding and promoting products41.
-3. Emphasize expanding and promoting direct sales.
+1. Aim to improve response times for the remaining 25% of cases that fall beyond the 75th percentile.his could involve optimizing processes or implementing automation for quicker responses to common queries.
+2. Conduct seminars for staff on customer handling to curb negative sentiments.
+3. Consider allocating more staff or resources on Thursdays and Fridays to handle the increased call volume efficiently.
 
 ### Limitations
-I had to remove all zero values from buying price and selling price columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both buying price and number of votes with selling price.
+Call center data may not capture every interaction or detail, leading to gaps in understanding customer experiences or issues.
